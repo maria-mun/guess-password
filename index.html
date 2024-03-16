@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Угадай пароль</title>
+</head>
+<body>
+    <div class="main">
+        <h2 class="header">Угадай пароль</h2>
+        <div class="settings">
+            <div><label>Кількість цифер у паролі: </label><select class="number-selection" >
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select></div>  
+            <div><label>Кількість спроб: </label><select class="try-selection">
+                <option value="6" selected>6</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+                <option value="12">12</option>
+                <option value="14">14</option>
+            </select></div>
+
+        </div>
+        <button class="start-btn">Почати</button>
+        <div class="game">
+            
+            <div class="grid"></div>
+            <div class="hints"></div>
+        </div>
+        <h3 class="result"></h3>
+        <p class="password"></p>
+    </div>
+</body>
+</html>
